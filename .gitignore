@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated output files
+prompt.txt
+response.txt
+
+# Generated embeddings
+embeddings.joblib
+
+# Course media / large files
+Audios/
+Sample Videos/
+
+# Environment variables / secrets
+.env
+.env.*
+*.key
+
+# Course-derived/generated data
+jsons/
+newjsons/
